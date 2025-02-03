@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:wght@100;200;300;400;500;600;700);
+
+@font-face {
+  font-family: "NanumSquareNeoVariable";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mont {
+  font-family: "Montserrat";
+}
+.nanum {
+  font-family: "nanumSquareNeoVariable";
+}
+.gmarket {
+  font-family: "GmarketSansMedium";
+}
