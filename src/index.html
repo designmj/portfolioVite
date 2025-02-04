@@ -9,22 +9,38 @@
 
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="module" src="assets/js/main.js"></script>
 </head>
 <body>
     <div id="skip">
-        <a href="#header">헤더</a>
+        <a href="#header">header</a>
         <a href="#skill">skill</a>
         <a href="#site">site</a>
         <a href="#portfolio">portfolio</a>
         <a href="#contact">contact</a>
-
     </div>
     <!-- //Skip -->
-    <header id="header">
-
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <h1><a href="">portfolio</a></h1>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__nav__mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false" tabindex="0">
+                <span></span>
+            </div>
+        </div>
     </header>
     <!-- //Header -->
-    <main id="main">
+    <main id="main" role="main">
         <section id="intro">
 1
         </section>
@@ -48,7 +64,7 @@
         <!-- //Contact -->
     </main>
     <!-- //Main -->
-    <footer id="footer"></footer>
+    <footer id="footer" role="contentinfo"></footer>
     <!-- Footer -->
 </body>
 </html>
